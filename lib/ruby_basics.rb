@@ -10,11 +10,11 @@ def argue(phrase)
   puts phrase
   end
   
-def greeting (phrase = "x",name = "Bob")
+def greeting (phrase = x,name = Bob)
   puts (phrase, name)
 end
 
-def return_a_value(phrase = "nice")
+def return_a_value(phrase = nice)
   puts phrase
 end
 
