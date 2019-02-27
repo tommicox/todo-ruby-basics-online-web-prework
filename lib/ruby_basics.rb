@@ -10,18 +10,18 @@ def argue(phrase)
   puts phrase
   end
   
-def greeting (phrase = x,name = Bob)
-  puts (phrase, name)
+def greeting (phrase,name)
+  puts "#{phrase},#{name}"
 end
 
-def return_a_value(phrase = nice)
-  puts phrase
+def return_a_value
+  puts nice
 end
 
-def last_evaluated_value(phrase)
-  puts phrase
+def last_evaluated_value
+  puts expert
 end
 
-def pizza_party("phrase", "type")
-  puts (phrase, type)
+def pizza_party(topping = "cheese")
+  puts "#{topping}"
 end
