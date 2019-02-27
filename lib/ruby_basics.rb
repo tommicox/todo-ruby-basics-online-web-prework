@@ -28,6 +28,7 @@ def last_evaluated_value(phrase)
   return phrase
 end
 
-def pizza_party
-
+def pizza_party("phrase", "type")
+  puts (phrase, type)
+  return (phrase, type)
 end
